@@ -1,5 +1,3 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.Random;
 
 public class Main {
@@ -22,7 +20,7 @@ public class Main {
         System.out.printf("%-40s|%-25s|%-25s|%-25s|%-25s\n", "Approach", "Problem One Solution", "Problem One Exec. Time", "Problem Two Solution", "Problem Two Exec. Time");
         System.out.printf("%-40s|%-25d|%-25d|%-25d|%-25d\n", "Divide and Conquer", problemOneResultDaC[0], problemOneResultDaC[1], problemTwoResultDaC[0], problemTwoResultDaC[1]);
         System.out.printf("%-40s|%-25d|%-25d|%-25d|%-25d\n", "Dynamic Programming", problemOneResultDP[0], problemOneResultDP[1], problemTwoResultDP[0], problemTwoResultDP[1]);
-        System.out.printf("%-40s|%-25d|%-25d|%-25d|%-25d\n", "Dynamic Programming", problemOneResultDPO[0],  problemOneResultDPO[1],  problemTwoResultDPO[0], problemTwoResultDPO[1]);
+        System.out.printf("%-40s|%-25d|%-25d|%-25d|%-25d\n", "Dynamic Programming (space-optimized)", problemOneResultDPO[0],  problemOneResultDPO[1],  problemTwoResultDPO[0], problemTwoResultDPO[1]);
     }
     public static int[] generateRandomData() {
         final int NUM_DAYS = 100;
